@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.ChatApp" parent="Theme.AppCompat.Light">
+        <!-- Здесь вы можете определить атрибуты вашего стиля -->
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "190214434061",
+    "firebase_url": "https://chatapp2026-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatapp2026",
+    "storage_bucket": "chatapp2026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190214434061:android:3d8b3cbf67ff4e9f5ed444",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsRNFcAxwiEmVBJhnrudhiKSVBM9FTEy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

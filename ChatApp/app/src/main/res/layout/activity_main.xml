@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15sp"
+    tools:context=".MainActivity">
+
+    <!-- Field for entering the sender's name -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName"
+        android:hint="Enter your name"
+        android:padding="15sp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <!-- Message field -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMessage"
+        android:hint="Enter message"
+        android:padding="15sp"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:background="@android:drawable/editbox_background"/>
+
+    <!-- Button to send a message -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSend"
+        android:text="Send message"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="16dp"/>
+
+</LinearLayout>
